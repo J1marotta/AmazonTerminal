@@ -1,0 +1,67 @@
+
+books list
+
+ genre
+ Fantasy
+ Author - George RR  MARTIN
+  Books
+  Game of thrones
+  a clash of kings
+  a storm of swords
+  a feast for crows
+  a dance with dragons
+  the winds of Winter
+  A dream of spring
+
+
+  fantasy
+   Author
+  JRR Tolkien
+  books
+   The hobbit
+   Lord of the rings the fellowship of the rings
+  lord of the rings the two towers
+  lord of the rings the return of the king.
+
+
+  Fantasy
+   Author
+   Patrick Rothfuss
+     the name of the wind
+    the wise mans fear.
+
+
+    HORROR
+    Stephen Graham Jones  A
+     Mongrels
+      The Last Final Girl
+      Ledfeather
+
+    Christopher Moore
+      A Dirty Job
+      Secondhand Souls
+      The Lust Lizard of Melancholy Cove
+
+    Donald Ray Pollock
+      The Heavenly Table
+      The Devil All the Time
+      Knockemstiff
+
+   author genre (Stephen King thrill)
+  book:
+  It: A Novel
+  The Dark Tower I: The Gunslinger
+  Sleeping Beauties: A Novel:
+  On Writing: 10th Anniversary Edition: A Memoir of the Craft
+
+  author genre (Kate Sherwood thrill)
+  book:
+  Sacrati
+  Dark Horse
+  Mark of Cain
+
+  author genre (Katerina Martinez thrill)
+  book:
+  Demon's Kiss
+  Magick Reborn
+  Witch's Wrath
