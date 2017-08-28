@@ -173,7 +173,6 @@ def shopAuthor
 
    # print all our authors
    Author.all.each {|author|
-
       puts author.name
     }
     # get a choice from the user
@@ -209,7 +208,7 @@ def shopAuthor
 
 
    puts
-   system("clear")
+  #  system("clear")
    puts "Your Cart:"
    puts @username.cart
    puts
@@ -227,7 +226,6 @@ def shopGenre
 
  # print all our authors
  Genre.all.each {|genre|
-
     puts genre.name
   }
   # get a choice from the user
@@ -235,7 +233,7 @@ def shopGenre
  puts
 
  # print out books matching genre name of our choice.
- system("clear")
+ # system("clear")
  Book.all.each do |book|
    puts book.name if book.genre.name == genre_choice
  end
@@ -261,7 +259,7 @@ def shopGenre
 
 
  puts
- system("clear")
+ # system("clear")
  puts "Your Cart:"
  puts @username.cart
  puts
@@ -272,7 +270,7 @@ end
 
 
 def list_books
-  system("clear")
+  # system("clear")
   puts "Here is all our books available."
   Book.all.each do |book|
     puts book.name
@@ -284,7 +282,7 @@ end
 
 
 def random_recommendation
-  system("clear")
+  # system("clear")
   puts "Try this book"
   random_book = []
   Book.all.each do |book|

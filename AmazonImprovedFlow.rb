@@ -123,6 +123,7 @@ puts " hello welcome to our \"Amazon\" online book Shop"
 puts " whats your name? "
 @username = User.new(gets.chomp)
 
+
 def choice
   puts " Would you like a recommendation or you can purchase"
   puts " by Author or Genre"
@@ -132,8 +133,9 @@ def choice
   puts "3 to shop by Author"
   puts "4 to list all books"
 
+  puts "hey, whats your choice?"
   input = gets.chomp
-  recommendation(input)
+  recommendation(input.to_s)
 
 end
 
@@ -141,16 +143,27 @@ end
 
 def recommendation(input)
   puts "hey, whats your choice?"
+    input == "2" ? recommend_by_genre : recommend_author
+end
 
-  Book.all.each do |book|
-    input == "genre" ? recommend_book(book, choice) : recommend_by_genre(book, choice)
+def recommend_author
+  system('clear')
+  puts "choose one of our authors"
+  Author.all.each {|author|
+     puts author.name
+   }
+  author_choice = gets.chomp
+
+  puts "Here are some of Their Books"
+  book.all.each do |book|
+    puts book.name if book.author.name == author_choice
   end
 end
-def recommend_book(book, choice)
-    puts book.name if book.author.name == author_choice
-end
 
-def recommend_by_genre(book, choice)
-    puts book.name if book.genre.name == genre_choice
+def recommend_by_genre
+  Genre.all.each do | genre |
+    puts book.name if book.genre.name ==
 
 end
+
+choice
